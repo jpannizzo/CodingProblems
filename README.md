@@ -14,4 +14,4 @@ Have the function ApproachingFibonacci(arr) take the arr parameter being passed 
 
 ## AWSRetrieveS3BucketFilename
 
-Access a public S3 Bucket and print all filenames that start with "__cb__"
+Access a public S3 Bucket and print all filenames that start with "\_\_cb\_\_"
