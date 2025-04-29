@@ -1,5 +1,9 @@
 This folder contains a series of coding problems that I have practiced on leetcode type websites or during technical assessments that I wanted to review after the fact. They are listed below with a brief description.
 
+## BracketCombinations
+
+Have the function BracketCombinations(num) read num which will be an integer greater than or equal to zero, and return the number of valid combinations that can be formed with num pairs of parentheses. For example, if the input is 3, then the possible combinations of 3 pairs of parenthesis, namely: ()()(), are ()()(), ()(()), (())(), ((())), and (()()). There are 5 total combinations when the input is 3, so your program should return 5.
+
 ## ReactCounter
 
 Make the counter increase every time the button is pressed in JS
