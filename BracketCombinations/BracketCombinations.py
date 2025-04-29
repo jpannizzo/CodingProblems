@@ -13,3 +13,11 @@ def BracketCombinations(num):
         catalan[k] = total  # store the count for k pairs
 
     return catalan[num]
+
+# Simple calls to verify the function’s output for various inputs:
+print(BracketCombinations(0))  # expected output: 1
+print(BracketCombinations(1))  # expected output: 1
+print(BracketCombinations(2))  # expected output: 2
+print(BracketCombinations(3))  # expected output: 5
+print(BracketCombinations(4))  # expected output: 14
+print(BracketCombinations(5))  # expected output: 42
