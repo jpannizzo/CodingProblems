@@ -1,5 +1,16 @@
 This folder contains a series of coding problems that I have practiced on leetcode type websites or during technical assessments that I wanted to review after the fact. They are listed below with a brief description.
 
+## TwoSum
+
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+You can return the answer in any order.
+Constraints:
+    2 <= nums.length <= 104
+    -109 <= nums[i] <= 109
+    -109 <= target <= 109
+    Only one valid answer exists.
+
 ## LinkedList
 
 Create a simple linked list that contains a value and is aware of the next node in the list.
