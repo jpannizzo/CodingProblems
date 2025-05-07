@@ -4,7 +4,7 @@ This folder contains a series of coding problems that I have practiced on leetco
 
 Given an integer x, return true if x is a palindrome, and false otherwise. A palindrome is an int that reads the same forward and backward.
 
-Constraints: < br /> 
+Constraints: <br /> 
     -2^31 <= x <= 2^31 - 1
 
 
@@ -14,10 +14,10 @@ Given an array of integers nums and an integer target, return indices of the two
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
 You can return the answer in any order.
 
-Constraints: < br /> 
-    2 <= nums.length <= 10^4 < br /> 
-    -10^9 <= nums[i] <= 10^9 < br /> 
-    -10^9 <= target <= 10^9 < br /> 
+Constraints: <br /> 
+    2 <= nums.length <= 10^4 <br /> 
+    -10^9 <= nums[i] <= 10^9 <br /> 
+    -10^9 <= target <= 10^9 <br /> 
     Only one valid answer exists.
 
 ## LinkedList
