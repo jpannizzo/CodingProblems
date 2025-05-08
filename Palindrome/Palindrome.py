@@ -1,5 +1,5 @@
 class Solution:
-    def isPalindrome(self, x: int) -> bool:
+    def is_palindrome(self, x: int) -> bool:
         try:
             x_reversed = int(str(x)[::-1])
         except ValueError:
@@ -13,15 +13,15 @@ class Solution:
 
 sol = Solution()
 
-print(sol.isPalindrome(121))
-print(sol.isPalindrome(-121))
-print(sol.isPalindrome(10))
+print(sol.is_palindrome(121))
+print(sol.is_palindrome(-121))
+print(sol.is_palindrome(10))
 print("\n")
 
 import math
 
 class SolutionNoString:
-    def isPalindrome(self, x: int) -> bool:  
+    def is_palindrome(self, x: int) -> bool:  
         try:
             # get number of digits
             num_digits = int(math.log10(x)+1)
@@ -43,6 +43,6 @@ class SolutionNoString:
 
 sol = SolutionNoString()
 
-print(sol.isPalindrome(121))
-print(sol.isPalindrome(-121))
-print(sol.isPalindrome(10))
+print(sol.is_palindrome(121))
+print(sol.is_palindrome(-121))
+print(sol.is_palindrome(10))

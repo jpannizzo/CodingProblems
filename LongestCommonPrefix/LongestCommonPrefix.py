@@ -1,6 +1,6 @@
 from typing import List
 class SimpleSolution:
-    def longestCommonPrefix(self, strs: List[str]) -> str:
+    def longest_common_prefix(self, strs: List[str]) -> str:
         if len(strs) == 0:
             return ""
         
@@ -25,17 +25,17 @@ class SimpleSolution:
 sol = SimpleSolution()
 
 strs = ["flower","flow","flight"]
-print(sol.longestCommonPrefix(strs))
+print(sol.longest_common_prefix(strs))
 strs = ["dog","racecar","car"]
-print(sol.longestCommonPrefix(strs))
+print(sol.longest_common_prefix(strs))
 strs = []
-print(sol.longestCommonPrefix(strs))
+print(sol.longest_common_prefix(strs))
 strs = [""]
-print(sol.longestCommonPrefix(strs))
+print(sol.longest_common_prefix(strs))
 print("Simple Solution Finished\n")
 
 class Solution:
-    def longestCommonPrefix(self, strs: List[str]) -> str:
+    def longest_common_prefix(self, strs: List[str]) -> str:
         prefix = ""
         if len(strs) == 0:
             return prefix
@@ -51,10 +51,10 @@ class Solution:
 sol = Solution()
 
 strs = ["flower","flow","flight"]
-print(sol.longestCommonPrefix(strs))
+print(sol.longest_common_prefix(strs))
 strs = ["dog","racecar","car"]
-print(sol.longestCommonPrefix(strs))
+print(sol.longest_common_prefix(strs))
 strs = []
-print(sol.longestCommonPrefix(strs))
+print(sol.longest_common_prefix(strs))
 strs = [""]
-print(sol.longestCommonPrefix(strs))
+print(sol.longest_common_prefix(strs))

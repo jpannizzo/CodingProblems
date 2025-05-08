@@ -1,4 +1,4 @@
-def BracketCombinations(num):
+def bracket_combinations(num):
     # catalan[i] = number of valid strings you can make with i pairs
     catalan = [0] * (num + 1)
     catalan[0] = 1  # one way to have zero pairs: the empty string
@@ -15,9 +15,9 @@ def BracketCombinations(num):
     return catalan[num]
 
 # Simple calls to verify the function’s output for various inputs:
-print(BracketCombinations(0))  # expected output: 1
-print(BracketCombinations(1))  # expected output: 1
-print(BracketCombinations(2))  # expected output: 2
-print(BracketCombinations(3))  # expected output: 5
-print(BracketCombinations(4))  # expected output: 14
-print(BracketCombinations(5))  # expected output: 42
+print(bracket_combinations(0))  # expected output: 1
+print(bracket_combinations(1))  # expected output: 1
+print(bracket_combinations(2))  # expected output: 2
+print(bracket_combinations(3))  # expected output: 5
+print(bracket_combinations(4))  # expected output: 14
+print(bracket_combinations(5))  # expected output: 42

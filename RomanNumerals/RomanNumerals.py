@@ -1,4 +1,4 @@
-def BasicRomanNumerals(strParam):
+def basic_roman_numerals(strParam):
     # Map of Roman numerals to their decimal values
     roman_numerals = {
         'I': 1,
@@ -32,7 +32,7 @@ def BasicRomanNumerals(strParam):
     return result
 
 # Test cases
-print(BasicRomanNumerals("XXIV"))  # Should output 24
-print(BasicRomanNumerals("IV"))    # Should output 4
-print(BasicRomanNumerals("MCMXCIV"))  # Should output 1994
-print(BasicRomanNumerals("III"))   # Should output 3
+print(basic_roman_numerals("XXIV"))  # Should output 24
+print(basic_roman_numerals("IV"))    # Should output 4
+print(basic_roman_numerals("MCMXCIV"))  # Should output 1994
+print(basic_roman_numerals("III"))   # Should output 3
