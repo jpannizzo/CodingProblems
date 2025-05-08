@@ -1,5 +1,23 @@
 This folder contains a series of coding problems that I have practiced on leetcode type websites or during technical assessments that I wanted to review after the fact. They are listed below with a brief description.
 
+## LongestCommonPrefix
+
+Write a function to find the longest common prefix string amongst an array of strings.
+
+If there is no common prefix, return an empty string "".
+
+Example 1:
+
+Input: strs = ["flower","flow","flight"]<br />
+Output: "fl"
+
+Example 2:
+
+Input: strs = ["dog","racecar","car"]<br />
+Output: ""<br />
+Explanation: There is no common prefix among the input strings.
+
+
 ## Palindrome
 
 Given an integer x, return true if x is a palindrome, and false otherwise. A palindrome is an int that reads the same forward and backward.
