@@ -28,9 +28,9 @@ class Book:
             if title_lookup.lower() == books[counter].title.lower():
                 return books[counter]
             elif title_lookup.lower() < books[counter].title.lower():
-                stop -= 1
+                stop = counter - 1
             else:
-                start += 1
+                start = counter + 1
 
         return "Book not found during binary search"
 
