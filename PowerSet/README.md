@@ -1,0 +1,1 @@
+Given a list of integers, return all possible subsets (the power set).
