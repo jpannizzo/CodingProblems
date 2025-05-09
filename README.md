@@ -1,5 +1,9 @@
 This folder contains a series of coding problems that I have practiced on leetcode type websites or during technical assessments that I wanted to review after the fact. They are listed below with a brief description.
 
+## BookSort
+
+Create a book object. This object should contain the Title, author, and genre. Create a title lookup, author lookup, and binary search for titles.
+
 ## LongestCommonPrefix
 
 Write a function to find the longest common prefix string amongst an array of strings.

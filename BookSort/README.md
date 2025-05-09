@@ -1,0 +1,1 @@
+Create a book object. This object should contain the Title, author, and genre. Create a title lookup, author lookup, and binary search for titles.
