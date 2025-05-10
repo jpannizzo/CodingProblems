@@ -1,5 +1,9 @@
 This folder contains a series of coding problems that I have practiced on leetcode type websites or during technical assessments that I wanted to review after the fact. They are listed below with a brief description.
 
+## QueueUsingStacks
+
+Create a Queue (FIFO) using 2 stacks (LIFO)
+
 ## PowerSet
 
 Given a list of integers, return all possible subsets (the power set).
