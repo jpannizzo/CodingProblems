@@ -1,5 +1,13 @@
 This folder contains a series of coding problems that I have practiced on leetcode type websites or during technical assessments that I wanted to review after the fact. They are listed below with a brief description.
 
+## LongestSubstringNoCharRepeat
+
+Given a string s, find the length of the longest substring without repeating characters
+
+ex.<br />
+Input: s = "abcabcbb"<br />
+Output: 3
+
 ## CustomDataStructure
 
 Design a data structure that supports insert, delete, search, and getRandom in constant time.
