@@ -1,5 +1,13 @@
 This folder contains a series of coding problems that I have practiced on leetcode type websites or during technical assessments that I wanted to review after the fact. They are listed below with a brief description.
 
+## MaxSum
+
+Given an array of integers and an integer k, return the maximum sum of any contiguous subarray of size k.
+
+Example:<br />
+Input: nums = [1, 4, 2, 10, 23, 3, 1, 0, 20], k = 4<br />
+Output: 39 (because 10 + 23 + 3 + 1 = 37 is highest of any window of size 4)
+
 ## LongestSubstringNoCharRepeat
 
 Given a string s, find the length of the longest substring without repeating characters
