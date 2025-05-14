@@ -1,1 +1,1 @@
-Create a Queue (FIFO) using 2 stacks (LIFO)
+Create a Queue (FIFO) using 2 stacks (LIFO). Should contain enqueue, dequeue, peek. enqueue adds a number to the queue, dequeue pops the first number of the queue off the Queue, and peek checks the top of the Queue.

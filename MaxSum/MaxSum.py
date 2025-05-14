@@ -26,3 +26,23 @@ def max_sum(nums: List[int], k: int):
     return max_num
 
 print(max_sum([1, 4, 2, 10, 23, 3, 1, 0, 20], 4))
+
+def max_sum2(nums: List[int], k: int) -> int:
+    compare_num = 0
+    max_num = 0
+    left = 0
+
+    for right in range(len(nums)):
+        compare_num += nums[right]
+
+        if right >= k:
+            compare_num -= nums[left]
+            left += 1
+
+        # print(compare_num)
+
+        max_num = max(max_num, compare_num) 
+
+    return max_num 
+
+print(max_sum2([1, 4, 2, 10, 23, 3, 1, 0, 20], 4))

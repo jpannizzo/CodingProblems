@@ -14,9 +14,18 @@ def solve (input_string):
 
     for right in range(len(string_list)):
         print(compare_set)
+        if string_list[right] in compare_set:
+            while left < right:
+                compare_set.pop()
+                left+=1
+        
+        '''
+        # This is a different loop that can be used for the same result
         while string_list[right] in compare_set:
-            compare_set.remove(string_list[left])
-            left +=1
+           compare_set.remove(string_list[left])
+           left +=1
+        '''
+        
         compare_set.add(string_list[right])
         max_len = max(max_len, right - left + 1)
         

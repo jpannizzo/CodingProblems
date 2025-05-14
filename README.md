@@ -2,7 +2,7 @@ This folder contains a series of coding problems that I have practiced on leetco
 
 ## MaxSum
 
-Given an array of integers and an integer k, return the maximum sum of any contiguous subarray of size k.
+Given an array of integers and an integer k, return the maximum sum of any continuous subarray of size k.
 
 Example:<br />
 Input: nums = [1, 4, 2, 10, 23, 3, 1, 0, 20], k = 4<br />
