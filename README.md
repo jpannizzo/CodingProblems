@@ -1,5 +1,14 @@
 This folder contains a series of coding problems that I have practiced on leetcode type websites or during technical assessments that I wanted to review after the fact. They are listed below with a brief description.
 
+## FizzBuzz
+
+Given an integer n, return a string array answer (1-indexed) where:
+
+answer[i] == "FizzBuzz" if i is divisible by 3 and 5.k = 4<br />
+answer[i] == "Fizz" if i is divisible by 3.k = 4<br />
+answer[i] == "Buzz" if i is divisible by 5.k = 4<br />
+answer[i] == i (as a string) if none of the above conditions are true.k = 4
+
 ## MaxSum
 
 Given an array of integers and an integer k, return the maximum sum of any continuous subarray of size k.
