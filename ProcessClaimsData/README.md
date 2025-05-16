@@ -1,7 +1,5 @@
 You are provided with a list of healthcare claim records in JSON format. Each record contains the following fields:
 
-Site Title
-
 claim_id (string)
 
 patient_id (string)

@@ -4,8 +4,6 @@ This folder contains a series of coding problems that I have practiced on leetco
 
 You are provided with a list of healthcare claim records in JSON format. Each record contains the following fields:
 
-Site Title
-
 claim_id (string)
 
 patient_id (string)
