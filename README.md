@@ -1,5 +1,12 @@
 This folder contains a series of coding problems that I have practiced on leetcode type websites or during technical assessments that I wanted to review after the fact. They are listed below with a brief description.
 
+## FileParse
+
+Given 2 logs across 2 separate days return the unique duplicate UserId & DocId combinations. The logs are formatted in the following way with no headers.<br />
+DateTime,UserId,DocId\n
+
+Added formatting for readability.
+
 ## ProcessClaimsData
 
 You are provided with a list of healthcare claim records in JSON format. Each record contains the following fields:
